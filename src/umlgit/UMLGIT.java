@@ -16,6 +16,7 @@ public class UMLGIT {
      */
     public static void main(String[] args) {
         System.out.println("This is just a test");
+        System.out.println("This message was created from the branch and has not yet been pushed to the default repository");
     }
     
 }
