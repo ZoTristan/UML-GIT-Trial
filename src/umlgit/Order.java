@@ -5,6 +5,13 @@ public class Order {
 	private int OrderID;
 	private String WaitTime;
 
+    public Order(int OrderID, String WaitTime) {
+        this.OrderID = OrderID;
+        this.WaitTime = WaitTime;
+    }
+        
+        
+
 	public int getOrderID() {
 		// TODO - implement Order.getOrderID
 		throw new UnsupportedOperationException();

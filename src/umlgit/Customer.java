@@ -5,6 +5,14 @@ public class Customer extends Person {
 	private String OrderRequest;
 	private int NumberOfItems;
 
+    public Customer(String OrderRequest, int NumberOfItems, String name) {
+        super(name);
+        this.OrderRequest = OrderRequest;
+        this.NumberOfItems = NumberOfItems;
+    }
+        
+        
+
 	public String getOrderRequest() {
 		// TODO - implement Customer.getOrderRequest
 		throw new UnsupportedOperationException();
